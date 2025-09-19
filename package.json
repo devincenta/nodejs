@@ -1,14 +1,8 @@
 {
-  "name": "nodejs-app",
+  "name": "gas-pinger",
   "version": "1.0.0",
-  "description": "A minimal Node.js web application.",
-  "main": "app.js",
-  "author": "alphasec",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.19.2"
-  },
-  "scripts": {
-    "start": "node app.js"
-  }
+  "type": "module",
+  "main": "index.js",
+  "dependencies": { "node-fetch": "^3.3.2" },
+  "scripts": { "start": "node index.js" }
 }
